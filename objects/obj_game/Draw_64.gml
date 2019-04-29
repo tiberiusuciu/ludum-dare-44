@@ -181,7 +181,7 @@ else if (room == room0) {
 	draw_text_transformed(50, 440 + vspace, text06, 2, 2, 0);
 	draw_text_transformed(50, 480 + vspace, text07, 2, 2, 0);
 	draw_text_transformed(50, 520 + vspace + 10, text04, 2, 2, 0);
-	draw_text_transformed(50, 720, "Press <m> to mute sound", 2, 2, 0);
+	draw_text_transformed(50, 720, "Press <m> to mute music", 2, 2, 0);
 	
 	draw_sprite_ext(spr_keyboard, 0, 400, 535, 2, 2, 0, c_white, 1);
 	draw_sprite_ext(spr_keyboard, 1, 470, 535, 2, 2, 0, c_white, 1);
