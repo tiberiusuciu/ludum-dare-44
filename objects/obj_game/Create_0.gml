@@ -4,7 +4,7 @@ randomize();
 
 player_health = 20;
 player_max_health = 20;
-enemy_spawn_rate = .01;
+enemy_spawn_rate = 0.01;
 active_power = "sword";
 play_death_animation = false;
 transition_to_credits_ready = false;

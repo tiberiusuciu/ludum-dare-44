@@ -15,8 +15,8 @@ if (room == room1) {
 				}
 			}
 		}
-		if (total_kills > 25) {
-			enemy_spawn_rate = 0.01 * (total_kills / 25);
+		if (total_kills > 15) {
+			enemy_spawn_rate = 0.01 * (total_kills / 15);
 		}
 		if (alarm[2] == -1) {
 			alarm[2] = room_speed * 5;
